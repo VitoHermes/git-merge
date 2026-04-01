@@ -47,7 +47,7 @@ module.exports = {
       // Adding custom animation keyframes
       keyframes: {
         wiggle: {
-          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '0%, 75%, 100%': { transform: 'rotate(-6deg)' },
           '50%': { transform: 'rotate(3deg)' },
         }
       },
@@ -73,6 +73,6 @@ module.exports = {
 
   // 5. Future/Experimental: Enable upcoming features
   future: {
-    hoverOnlyWhenSupported: true,
+    hoverOnlyWhenSupported: false,
   },
 }
