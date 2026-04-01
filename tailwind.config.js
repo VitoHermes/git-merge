@@ -15,6 +15,7 @@ module.exports = {
   theme: {
     // Custom screens (breakpoints)
     screens: {
+      'sm': '386px',
       'xs': '475px',
       ...defaultTheme.screens, // Keep existing screens
     },
