@@ -17,6 +17,7 @@ module.exports = {
     screens: {
       'sm': '386px',
       'xs': '475px',
+      'lg': '1024px',
       ...defaultTheme.screens, // Keep existing screens
     },
     // Extend adds to the default theme rather than overwriting it
@@ -47,7 +48,7 @@ module.exports = {
       // Adding custom animation keyframes
       keyframes: {
         wiggle: {
-          '0%, 25%, 100%': { transform: 'rotate(-2deg)' },
+          '0%, 75%, 100%': { transform: 'rotate(-6deg)' },
           '50%': { transform: 'rotate(3deg)' },
         }
       },
@@ -73,6 +74,6 @@ module.exports = {
 
   // 5. Future/Experimental: Enable upcoming features
   future: {
-    hoverOnlyWhenSupported: true,
+    hoverOnlyWhenSupported: false,
   },
 }
